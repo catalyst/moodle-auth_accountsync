@@ -46,7 +46,7 @@ class auth_accountsync_testcase extends advanced_testcase {
     /**
      * Setup test data.
      */
-    protected function setUp() {
+    protected function setUp() : void {
         $this->resetAfterTest(true);
         set_config('accountsync_wstoken', '1x2x3', auth_plugin_accountsync::COMPONENT_NAME);
         set_config('accountsync_wsurl', 'http://testsite.com', auth_plugin_accountsync::COMPONENT_NAME);
