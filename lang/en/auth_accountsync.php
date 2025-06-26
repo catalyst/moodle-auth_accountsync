@@ -42,3 +42,4 @@ $string['servertype'] = 'Server Type';
 $string['servertype_desc'] = 'Select the type of remote server being connected to';
 $string['moodle_server'] = 'Moodle';
 $string['totara_server'] = 'Totara';
+$string['privacy:metadata'] = 'The auth account sync plugin does not store any personal data.';
